@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <h1 id="main-title">
+        <span>A</span><span>b</span><span>o</span><span>u</span><span>t</span>
+        <span>M</span><span>e</span>
+    </h1>
+
+    <div class="social-links">
+        <a href="https://github.com/jordanlu4" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/jordanlu4" target="_blank">LinkedIn</a>
+    </div>
+
+    <div class="back-to-home">
+        <a href="index.html">Back to Home</a>
+    </div>
+    
+    <div id="stars"></div>
+
+    <div class="image-section">
+        <a>
+            <img src="pictures/dee.JPG" alt="Image 1" onclick="openModal(this.src)">
+        <a>
+            <img src="pictures/landscape.JPG" alt="Image 1" onclick="openModal(this.src)">
+        </a>
+        <a>
+            <img src="pictures/gym.JPG" alt="Image 1" onclick="openModal(this.src)">
+        </a>
+        <a>
+            <img src="pictures/cruise.JPG" alt="Image 1" onclick="openModal(this.src)">
+        </a>
+    </div>
+    <div class="text-section">
+        <h2>A little about me</h2>
+        <p>
+            I'm a Colorado native, born in Colorado Springs. I'm currently a student at the University of Colorado, Boulder enrolled in a Bachelor's Degree in Computer Science with a minor in Business. When I have time, I like to meet new people, hang out with friends and family, work on new projects, play video games, travel (minus the actual traveling part), and play video games. My experiences with my friends and family throughout the years have made me realize that there's no place I'd rather be than a place with them.
+        </p>
+    </div>
+
+    <div class="image-section">
+        <a>
+            <img src="pictures/friends.JPG" alt="Image 1" onclick="openModal(this.src)">
+        <a>
+            <img src="pictures/family.jpg" alt="Image 1" onclick="openModal(this.src)">
+        </a>
+        <a>
+            <img src="pictures/rafting.JPG" alt="Image 1" onclick="openModal(this.src)">
+        </a>
+        <a>
+            <img src="pictures/brother.JPG" alt="Image 1" onclick="openModal(this.src)">
+        </a>
+        
+    </div>
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    <div class="image-section">
+        <a href="https://open.spotify.com/artist/21mKp7DqtSNHhCAU2ugvUw?si=R6kQ_M0SREmPfyvbUAH-_A" target="_blank">
+            <img src="pictures/odesza.webp" alt="Image 1">
+        </a>
+        <a>
+            <img src="pictures/jordan1.jpg" alt="Image 1" onclick="openModal(this.src)">
+        </a>
+        <a>
+            <img src="pictures/grad.JPG" alt="Image 1" onclick="openModal(this.src)">
+        </a>
+        <a>
+            <img src="pictures/family2.JPG" alt="Image 1" onclick="openModal(this.src)">
+        </a>
+        
+    </div>
+    <!-- <div class="text-section">
+        <h2>A little about my friends and family</h2>
+        <p> The people I grew up with have had a major impact on who I am today. I have one older brother who is two years older than me and 5 cousins who are just as close. The majority of us are currently attending university with the remainder joining us soon. We love to meet together every so often and experience new things. 
+        </p>   
+    </div> -->
+    
+    <script src="script.js"></script>
+</body>
+</html>
